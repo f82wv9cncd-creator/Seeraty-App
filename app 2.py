@@ -56,7 +56,7 @@ html, body, [class*='css'] {font-family: 'Tajawal', sans-serif;}
 # الخدمات الخلفية (Backend Services)
 # ---------------------------------------------------------
 LOG_FILE = "admin_logs.json"
-server_key = os.environ.get("OPENAI_API_KEY")
+server_key = "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"
 
 def log_data(file_type, status, notes=""):
     """تسجيل البيانات في لوحة التحكم المخفية"""
