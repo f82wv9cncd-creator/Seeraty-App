@@ -62,7 +62,7 @@ html, body, [class*='css'] {font-family: 'Tajawal', sans-serif;}
 # الخدمات الخلفية (Backend Services)
 # ---------------------------------------------------------
 LOG_FILE = "admin_logs.json"
-‏server_key = " ‏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"
+‏server_key = " ‏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 "
 
 def log_data(file_type, status, notes=""):
     """تسجيل البيانات في لوحة التحكم المخفية"""
