@@ -36,10 +36,16 @@ html, body, [class*='css'] {font-family: 'Tajawal', sans-serif;}
 .stButton>button:hover {background-color: #334155; transform: scale(1.01);}
 
 /* بطاقات النتائج */
+/* بطاقات النتائج - تعديل لإصلاح الوضع الليلي */
 .result-card {
-    background-color: #ffffff; padding: 25px; border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    border: 1px solid #e2e8f0; margin-bottom: 20px;
+    background-color: #ffffff; 
+    padding: 25px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0; 
+    margin-bottom: 20px;
+    color: #000000 !important; /* 👈 هذا الأمر يخلي الخط أسود غصب */
+}
 }
 .salary-box {
     background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534;
